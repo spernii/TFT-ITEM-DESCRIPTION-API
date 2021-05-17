@@ -1,1 +1,34 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFT ITEM DESCRIPTION</title>
+</head>
+<body>
+    
+    <div class="content">
+        <div class="header">
+            <img src="images/tft logo.png" alt="" id="tft-logo" draggable="false">
+            <h1>TFT ITEM HELPER</h1>
+        </div>
+        <div class="app-body">
+            <label for="searchbar">Search Item:
+                <input type="search" id="searchbar" placeholder="ex: blue buff">
+            </label>
+            <button type="button" id="submitButton">Search</button>
+            
+            <div id="results">
+                <label for="" class="s">Stats:<p id="stats"></p></label>
+                <label for="" class="s">Description:<p id="description"></p></label>
+                <label for="" class="s">Shadow descritpion:<p id="shodow-description"></p></label>
+                <label for="" class="s">Components:<p id="components"></p></label>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
